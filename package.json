@@ -1,0 +1,38 @@
+{
+  "name": "d3-utils",
+  "version": "1.0.0",
+  "description": "Small utils to make developing with d3 easier, inspired by d3-jetpack and d3-starterkit",
+  "main": "index.js",
+  "dependencies": {
+    "d3": "^3.5.16",
+    "tape": "^4.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilbayes/d3-utils.git"
+  },
+  "keywords": [
+    "d3",
+    "utils",
+    "compose",
+    "lifecycle",
+    "update",
+    "enter",
+    "exit",
+    "pattern",
+    "getter",
+    "get",
+    "default",
+    "value"
+  ],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilbayes/d3-utils/issues"
+  },
+  "homepage": "https://github.com/emilbayes/d3-utils#readme"
+}
