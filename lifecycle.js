@@ -1,9 +1,7 @@
-function noop () {}
-
 module.exports = function (enter, update, exit) {
   return function (selection) {
-    selection.enter().call(enter || noop)
-    selection.call(update || noop)
-    selection.exit().call(exit || noop)
+    if (enter != null) selection.enter().call(enter)
+    if (update != null)  selection.call(update)
+    if (exit != null) selection.exit().call(exit)
   }
 }
