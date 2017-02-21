@@ -1,6 +1,6 @@
 {
   "name": "d3-utils",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Small utils to make developing with d3 easier, inspired by d3-jetpack and d3-starterkit",
   "main": "index.js",
   "dependencies": {
