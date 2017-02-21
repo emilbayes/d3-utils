@@ -1,5 +1,7 @@
 # `d3-utils`
 
+[![Build Status](https://travis-ci.org/emilbayes/d3-utils.svg?branch=master)](https://travis-ci.org/emilbayes/d3-utils)
+
 > Small utils to make developing with d3 easier, inspired by d3-jetpack and d3-starterkit
 
 ## Install
